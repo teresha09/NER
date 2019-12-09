@@ -1,0 +1,105 @@
+fold:00
+text intersection train:82782
+text intersection test: 18314
+adr intersection train:8856
+adr intersection test: 1274
+number of adr entities cadec train:5268
+number of adr entities cadec test: 1039
+number of adr entities psytar train:5268
+number of adr entities psytar test: 1039
+disease intersection train:134
+ intersection test: 44
+number of disease entities cadec train:221
+number of disease entities cadec test: 59
+number of disease entities psytar train:221
+number of disease entities psytar test: 59
+symptom intersection train:87
+ intersection test: 194
+number of symptom entities cadec train:82
+number of symptom entities cadec test: 193
+number of symptom entities psytar train:82
+number of symptom entities psytar test: 193
+fold:01
+text intersection train:78393
+text intersection test: 22703
+adr intersection train:8074
+adr intersection test: 2056
+number of adr entities cadec train:4786
+number of adr entities cadec test: 1521
+number of adr entities psytar train:4786
+number of adr entities psytar test: 1521
+disease intersection train:107
+ intersection test: 71
+number of disease entities cadec train:162
+number of disease entities cadec test: 118
+number of disease entities psytar train:162
+number of disease entities psytar test: 118
+symptom intersection train:277
+ intersection test: 4
+number of symptom entities cadec train:267
+number of symptom entities cadec test: 8
+number of symptom entities psytar train:267
+number of symptom entities psytar test: 8
+fold:02
+text intersection train:81028
+text intersection test: 20068
+adr intersection train:8035
+adr intersection test: 2095
+number of adr entities cadec train:4976
+number of adr entities cadec test: 1331
+number of adr entities psytar train:4976
+number of adr entities psytar test: 1331
+disease intersection train:148
+ intersection test: 30
+number of disease entities cadec train:217
+number of disease entities cadec test: 63
+number of disease entities psytar train:217
+number of disease entities psytar test: 63
+symptom intersection train:267
+ intersection test: 14
+number of symptom entities cadec train:264
+number of symptom entities cadec test: 11
+number of symptom entities psytar train:264
+number of symptom entities psytar test: 11
+fold:03
+text intersection train:80539
+text intersection test: 20557
+adr intersection train:7503
+adr intersection test: 2627
+number of adr entities cadec train:5019
+number of adr entities cadec test: 1288
+number of adr entities psytar train:5019
+number of adr entities psytar test: 1288
+disease intersection train:162
+ intersection test: 16
+number of disease entities cadec train:266
+number of disease entities cadec test: 14
+number of disease entities psytar train:266
+number of disease entities psytar test: 14
+symptom intersection train:275
+ intersection test: 6
+number of symptom entities cadec train:273
+number of symptom entities cadec test: 2
+number of symptom entities psytar train:273
+number of symptom entities psytar test: 2
+fold:04
+text intersection train:81642
+text intersection test: 19454
+adr intersection train:8049
+adr intersection test: 2081
+number of adr entities cadec train:5179
+number of adr entities cadec test: 1128
+number of adr entities psytar train:5179
+number of adr entities psytar test: 1128
+disease intersection train:158
+ intersection test: 20
+number of disease entities cadec train:254
+number of disease entities cadec test: 26
+number of disease entities psytar train:254
+number of disease entities psytar test: 26
+symptom intersection train:215
+ intersection test: 66
+number of symptom entities cadec train:214
+number of symptom entities cadec test: 61
+number of symptom entities psytar train:214
+number of symptom entities psytar test: 61
