@@ -9,10 +9,10 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--psytar', '-psytar', type=str, default='data/psytar_folds')
-parser.add_argument('--psytar_text', '-psytar_text', type=str, default='data/Copy of PsyTAR_dataset.csv')
-parser.add_argument('--psytar_adr', '-psytar_adr', type=str, default='data/Copy of PsyTAR_dataset_adr.csv')
-parser.add_argument('--psytar_disease', '-psytar_disease', type=str, default='data/Copy of PsyTAR_dataset_disease.csv')
-parser.add_argument('--psytar_symptoms', '-psytar_symptoms', type=str, default='data/Copy of PsyTAR_dataset_symptoms.csv')
+parser.add_argument('--psytar_text', '-psytar_text', type=str, default='data/Copy_of_PsyTAR_dataset.csv')
+parser.add_argument('--psytar_adr', '-psytar_adr', type=str, default='data/Copy_of_PsyTAR_dataset_adr.csv')
+parser.add_argument('--psytar_disease', '-psytar_disease', type=str, default='data/Copy_of_PsyTAR_dataset_disease.csv')
+parser.add_argument('--psytar_symptoms', '-psytar_symptoms', type=str, default='data/Copy_of_PsyTAR_dataset_symptoms.csv')
 parser.add_argument('--folds', '-folds', type=int, default=5)
 args = parser.parse_args()
 
@@ -136,7 +136,7 @@ adr_entity = get_adr_entity(adr_path, text)
 disease_entity = get_disease_entity(disease_path, text)
 symptom_entity = get_symptom_entity(symptom_path, text)
 entity_dict = make_entity_dict(text,adr_entity,disease_entity,symptom_entity)
-print(entity_dict)
+
 
 for key in text:
     df = df.append({'text': text[key], 'entities': entity_dict[key]}, ignore_index=True)

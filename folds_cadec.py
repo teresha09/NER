@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--cadec', '-cadec', type=str, default="data/cadec")
 parser.add_argument('--cadec_text', '-cadec_text', type=str, default="data/cadec/text")
 parser.add_argument('--cadec_sct', '-cadec_sct', type=str, default="data/cadec/sct")
-parser.add_argument('--cadec_original', '-cadec_origina;', type=str, default="data/cadec/original")
+parser.add_argument('--cadec_original', '-cadec_original;', type=str, default="data/cadec/original")
 parser.add_argument('--cadec_folds', '-cadec_folds', type=str, default="data/cadec_folds")
 parser.add_argument('--folds', '-folds', type=int, default=5)
 
@@ -106,7 +106,6 @@ number = 0
 for i in list(entity_dict):
     df = df.append({'text': text[i], 'entities':entity_dict[i]}, ignore_index=True)
 
-df.to_json("corpus_cadec.json", orient='table')
 rkf = KFold(n_splits=n_folds)
 
 n_fold = 0
